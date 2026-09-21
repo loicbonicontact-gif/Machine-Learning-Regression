@@ -9,6 +9,8 @@ Formation Simplon. Brief : NexaData Consulting.
 - 2026-09-18 : dépôt du repo de la prof cloné en local pour référence.
 - 2026-09-18 : dépôt GitHub perso créé et lié : https://github.com/loicbonicontact-gif/Machine-Learning-Regression (public), premier commit poussé (data, notebooks, assets).
 
+- 2026-09-21 : synchronisation avec le repo de la prof (remote `prof`) : aucune nouveauté, contenu identique à la copie initiale.
+
 ## Décisions prises
 - Un repo GitHub dédié à ce projet Régression (séparé du repo Classification existant).
 - Visibilité : public.
