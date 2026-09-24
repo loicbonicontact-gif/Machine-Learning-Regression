@@ -16,6 +16,13 @@ Formation Simplon. Brief : NexaData Consulting.
   SVR, MSE/MAE/R², tableau récapitulatif), notebook exécuté sans erreur, réponses aux
   questions rédigées en markdown. Résultats : Random Forest meilleur (R² 0,80, MAE 0,33).
 
+- 2026-09-24 : notebook binôme `Dav , Suz , Lo/aegis-health-coverage suz loic david.ipynb` corrigé :
+  chemin du CSV relatif (`../data/insurance-data.csv`), cellule de sauvegarde Windows supprimée,
+  cellules vides/en double retirées. Exécuté sur Mac sans erreur (RF optimisé R² 0,877, MAE 2488 $).
+- 2026-09-24 : section **Lot 1 : Tabagisme (Loïc)** ajoutée dans ce notebook : KPI (coût moyen 13 270 $,
+  médian 9 382 $, 20,5 % de fumeurs), surcoût fumeurs (x3,8 ; 49 % des dépenses), croisements
+  tabac x obésité et tabac x âge, conclusion.
+
 ## Décisions prises
 - 2026-09-24 : la décision du 2026-09-18 (Claude n'écrit pas nb_03) est remplacée : l'utilisateur
   a demandé à Claude de finir tout `nb_03` en autonomie.
@@ -30,7 +37,12 @@ Formation Simplon. Brief : NexaData Consulting.
   de l'utilisateur ; il peut expliquer, guider, corriger ou répondre à des questions
   pendant que l'utilisateur code lui-même.
 
+- 2026-09-24 : répartition en lots dans le binôme ; Loïc = Lot 1 Tabagisme, fait dans le notebook
+  (pas dans Streamlit) à sa demande.
+
 ## Reste à faire
+- Prévenir les coéquipiers des changements du notebook (chemin relatif, cellules retirées).
+- Renommer le notebook en `insurance_health_prediction.ipynb` (nom demandé par le brief) — à décider en binôme.
 - Relire/comprendre `nb_03` (terminé le 2026-09-24) avant de le rendre.
 - Construire le notebook 2 (Aegis Health Coverage / insurance-data.csv) — binôme.
 - Construire le Dashboard Streamlit (simulateur de prime) — binôme.
