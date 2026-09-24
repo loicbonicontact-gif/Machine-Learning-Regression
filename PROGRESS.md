@@ -24,6 +24,8 @@ Formation Simplon. Brief : NexaData Consulting.
   (sous-groupe dans la distribution, écart chiffré, hommes vs femmes). Résultats : corrélation 0,79
   (vs âge 0,30), +23 616 $ par fumeur (x3,8), 94 % des assurés > 30 000 $ sont fumeurs,
   surcoût +21 917 $ femmes / +24 955 $ hommes.
+- 2026-09-24 : fichiers parasites `Dav , Suz , Lo/C:\Users\...pkl` supprimés. Consigne pour le binôme :
+  dans chaque lot, travailler sur une copie (`df.copy()`), ne jamais modifier `df`.
 
 ## Décisions prises
 - 2026-09-24 : la décision du 2026-09-18 (Claude n'écrit pas nb_03) est remplacée : l'utilisateur
@@ -44,7 +46,6 @@ Formation Simplon. Brief : NexaData Consulting.
   notebook, après le prétraitement et les modèles.
 
 ## Reste à faire
-- Supprimer les 2 fichiers parasites `Dav , Suz , Lo/C:\\Users\\...pkl` (créés en exécutant l'ancienne cellule Windows sur Mac).
 - Prévenir les coéquipiers des changements du notebook (chemin relatif, cellules retirées).
 - Renommer le notebook en `insurance_health_prediction.ipynb` (nom demandé par le brief) — à décider en binôme.
 - Relire/comprendre `nb_03` (terminé le 2026-09-24) avant de le rendre.
