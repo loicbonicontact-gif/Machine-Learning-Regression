@@ -40,7 +40,8 @@ Formation Simplon. Brief : NexaData Consulting.
   pendant que l'utilisateur code lui-même.
 
 - 2026-09-24 : répartition en lots dans le binôme ; Loïc = Lot 1 Tabagisme, fait dans le notebook
-  (pas dans Streamlit) à sa demande.
+  (pas dans Streamlit) à sa demande. Convention du binôme : chaque lot est ajouté à la fin du
+  notebook, après le prétraitement et les modèles.
 
 ## Reste à faire
 - Supprimer les 2 fichiers parasites `Dav , Suz , Lo/C:\\Users\\...pkl` (créés en exécutant l'ancienne cellule Windows sur Mac).
