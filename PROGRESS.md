@@ -19,9 +19,11 @@ Formation Simplon. Brief : NexaData Consulting.
 - 2026-09-24 : notebook binôme `Dav , Suz , Lo/aegis-health-coverage suz loic david.ipynb` corrigé :
   chemin du CSV relatif (`../data/insurance-data.csv`), cellule de sauvegarde Windows supprimée,
   cellules vides/en double retirées. Exécuté sur Mac sans erreur (RF optimisé R² 0,877, MAE 2488 $).
-- 2026-09-24 : section **Lot 1 : Tabagisme (Loïc)** ajoutée dans ce notebook : KPI (coût moyen 13 270 $,
-  médian 9 382 $, 20,5 % de fumeurs), surcoût fumeurs (x3,8 ; 49 % des dépenses), croisements
-  tabac x obésité et tabac x âge, conclusion.
+- 2026-09-24 : section **Lot 1 : Tabagisme (Loïc)** dans ce notebook, alignée sur la fiche du binôme :
+  question principale « le tabagisme est-il le facteur n°1, et de combien ? » + 3 sous-questions
+  (sous-groupe dans la distribution, écart chiffré, hommes vs femmes). Résultats : corrélation 0,79
+  (vs âge 0,30), +23 616 $ par fumeur (x3,8), 94 % des assurés > 30 000 $ sont fumeurs,
+  surcoût +21 917 $ femmes / +24 955 $ hommes.
 
 ## Décisions prises
 - 2026-09-24 : la décision du 2026-09-18 (Claude n'écrit pas nb_03) est remplacée : l'utilisateur
@@ -41,6 +43,7 @@ Formation Simplon. Brief : NexaData Consulting.
   (pas dans Streamlit) à sa demande.
 
 ## Reste à faire
+- Supprimer les 2 fichiers parasites `Dav , Suz , Lo/C:\\Users\\...pkl` (créés en exécutant l'ancienne cellule Windows sur Mac).
 - Prévenir les coéquipiers des changements du notebook (chemin relatif, cellules retirées).
 - Renommer le notebook en `insurance_health_prediction.ipynb` (nom demandé par le brief) — à décider en binôme.
 - Relire/comprendre `nb_03` (terminé le 2026-09-24) avant de le rendre.
